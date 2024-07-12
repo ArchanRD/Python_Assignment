@@ -23,6 +23,6 @@ class Solution:
         return True
 
 sol = Solution()
-bills = [5,5,10,20,5,5,5,5,5,5,5,5,5,10,5,5,20,5,20,5]
-# bills = [5,5,10,10, 20]
+# bills = [5,5,10,20,5,5,5,5,5,5,5,5,5,10,5,5,20,5,20,5]
+bills = [5,5,10,10, 20]
 print(sol.lemonadeChange(bills))
