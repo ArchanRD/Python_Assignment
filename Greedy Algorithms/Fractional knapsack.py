@@ -15,8 +15,8 @@ def knapsack(values:list[int], weight:list[int], capacity:int)->float:
             break
     return total_values
 
-values = [60, 100, 120]
-weights = [10, 20, 30]
+values = [100, 12*0, 60]
+weights = [20, 30, 10]
 C = 50
 
 print(knapsack(values=values, weight=weights, capacity=C))
